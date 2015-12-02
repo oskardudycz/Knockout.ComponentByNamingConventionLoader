@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Knockout.ComponentByNamingConventionLoader</id>
+        <version>1.0.0</version>
+        <title>Knockout.ComponentByNamingConventionLoader</title>
+        <authors>oskardudycz</authors>
+        <owners>oskardudycz</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.html</licenseUrl>
+        <projectUrl>https://github.com/Knockout-Contrib/Knockout-Validation</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A Component By Naming Convention Loader plugin for KnockoutJS</description>
+        <summary>A Component By Naming Convention Loader plugin for KnockoutJS</summary>
+        <language>en-US</language>
+        <dependencies>
+            <dependency id="knockoutjs" version="2.3.0" />
+            <dependency id="jQuery" version="2.0.0" />			
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\Scripts\ComponentByNamingConventionLoader.js" target="content\Scripts\ComponentByNamingConventionLoader.js" />
+    </files>
+</package>
