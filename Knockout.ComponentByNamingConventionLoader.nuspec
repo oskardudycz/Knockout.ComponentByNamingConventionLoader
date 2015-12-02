@@ -13,7 +13,7 @@
         <summary>A Component By Naming Convention Loader plugin for KnockoutJS</summary>
         <language>en-US</language>
         <dependencies>
-            <dependency id="knockoutjs" version="2.3.0" />
+            <dependency id="knockoutjs" version="3.3.0" />
             <dependency id="jQuery" version="2.0.0" />			
         </dependencies>
     </metadata>
