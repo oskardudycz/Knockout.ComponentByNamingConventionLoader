@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Knockout.ComponentByNamingConventionLoader</id>
-        <version>1.0.0</version>
+        <id>Knockout.ComponentByNamingConventionLoader</id>        
+		<version>$version$</version>
         <title>Knockout.ComponentByNamingConventionLoader</title>
         <authors>oskardudycz</authors>
         <owners>oskardudycz</owners>
         <licenseUrl>http://www.opensource.org/licenses/mit-license.html</licenseUrl>
-        <projectUrl>https://github.com/Knockout-Contrib/Knockout-Validation</projectUrl>
+        <projectUrl>https://github.com/oskardudycz/Knockout.ComponentByNamingConventionLoader</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A Component By Naming Convention Loader plugin for KnockoutJS</description>
         <summary>A Component By Naming Convention Loader plugin for KnockoutJS</summary>
