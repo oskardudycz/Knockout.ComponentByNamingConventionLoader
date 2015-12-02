@@ -14,5 +14,4 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-
-%nuget% pack "Knockout.ComponentByNamingConventionLoader.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "Knockout.ComponentByNamingConventionLoader.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%" -OutputDirectory $buildArtifactsDirectory
