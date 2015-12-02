@@ -1,0 +1,1 @@
+%nuget% pack "{0}" -OutputDirectory "{1}" -Prop Configuration={2} -NoPackageAnalysis -Symbols {3} -Version {4}
