@@ -28,6 +28,10 @@ ko.components.loaders.unshift((function () {
         var name = getClearComponentName(componentName);
         return name + "/" + name + "ViewModel.js";
     }
+	
+	function shouldUseNamingConventionForComponent(name) {
+        return name.indexOf("-nc") !== -1;
+    }
 
     function shouldUseNamingConventionForView(viewConfig) {
         return !viewConfig.element;
@@ -78,12 +82,11 @@ ko.components.loaders.unshift((function () {
     ////////////////////////////////////////////////////////
 
     function getConfig(name, callback) {
-        if (name.indexOf("-nc") === -1) {
+        if (shouldUseNamingConventionForComponent(name)) {
             callDefaultBehaviour(callback);
             return;
         }
         
-        //provide configuration for how to load the template/widget
         callback({
             template: { fromUrl: getViewPathFromComponentName(name)},
             viewModel: { fromUrl: getViewModelPathFromComponentName(name) }
